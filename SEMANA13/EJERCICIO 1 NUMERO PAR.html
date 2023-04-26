@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CICLO FOR PAR</title>
+</head>
+<body>
+    <center>
+        <h2>GENERACION DE NUMEROS PARES</h2>
+        <h3>CICLO FOR</h3>
+        <script>
+            //Programa que genera numeros pares dependiendo de un rango seleccionado
+            //Variables
+            let inicio, final;//Variables del ciclo for
+            let num=0;//Variable contador de numeros pares generados 
+            //Entrada
+            inicio=parseInt(prompt("Ingrese numero inicial de rango.."));
+            final=parseInt(prompt("Ingrese numero final de rango.."));
+            //Proceso ciclo for
+            for(f=inicio;f<=final;f++){
+                //Condicional si para validar numero par
+                if(f%2==0){
+                    document.write("<br>");
+                    document.write(" NUMERO PAR..."+f+"<br>");
+                    num++;//contador de numeros pares
+                }
+            }
+            //SALIDA
+            document.write(" TOTAL DE NUMEROS PARES GENERADOS..."+num+"<br>");
+        </script>
+    </center>
+</body>
+</html>
