@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO HTML</title>
+    <!-- SECCION DE FAVICON -->
+    <link rel="shortcut icon" href="img/HTML5.png" type="image/x-icon">
+    <!-- SECCION LINK PAGINA FONTAWESOME PARA ICONOS MINIATURAS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/INDEX_NEW.css">
+</head>
+<body>
+    <!-- SECCION DIV CONTENEDOR PRINCIPAL -->
+    <div id="grid-container">
+        <!-- seccion de encabezado web -->
+        <header id="header">
+            <img src="./img/incap.png" alt="" width="100" height="100">
+            <h1 style="color: white;">APRENDER HTML CSS JAVASCRIPT PHP</h1>
+        </header>
+        
+        <!-- seccion menu opciones -->
+        <nav id="menu">
+            <button id="openmenu" onclick="openMenu();"><i class="fas fa-bars"></i></button>
+            <ul class="mainmenu" id="mainMenu">
+                <a href="javascript:void(0)" id="closemenu" onclick="closeNav()"> &times;</a>
+                <i class="fas fa-home"></i><li> <a href="./INDEX_RESPONSIVE.HTML"> INICIO</a> </li>
+                <i class="fas fa-user-graduate"></i><li> <a href="./HTML/VISOR GLICHTBOX.html"> CATALOGO</a> </li><i></i>
+                <i class="fas fa-cart-arrow-down"></i><li> <a href="./HTML/TIENDAOL.html"> TIENDA ONLINE</a> </li>
+                <i class="fab fa-wpforms"></i><li> <a href="">CONTACTO</a> </li>
+            </ul>
+        
+        <!-- seccion buscador web -->
+        <div class="buscarbox">
+            <i class="fas fa-search"></i><input type="text" placeholder="Buscar aqui....">
+        </div>
+        <!-- seccion resgistrese usuario -->
+        <div id="reguser">
+            <i class="fas fa-user"></i>
+            <a href="">REGISTRESE</a>
+        </div>
+    </nav>
+        <!-- SECCION CONTENIDO PRINCIPAL -->
+        <center>
+            <section id="main">
+                <figure>
+                    <img src="img/HTML5.png" width="100" height="100" alt="">
+                    <img src="img/css3.png" width="100" height="100" alt="">
+                    <img src="img/JAVASCRIPT.png"width="100" height="100"  alt=""> 
+                    <img src="img/php-logo.svg"width="100" height="100"  alt=""> 
+                </figure>
+                <br>
+                <!-- seccion programas de incap con enlaces -->
+                <article class="programa">
+                    <h1 style="color: black;">SISTEMAS</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-en-operacion-de-programas-informaticos-y-bases-de-datos.html"><img src="img/portatiles1.jpg" alt="" width="100" height="100"></a>
+                </article>
+                <article class="programa">
+                    <h1 style="color: black;">DISEÑO GRAFICO</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-comunicacion-grafica-publicitaria.html"><img src="img/foto1.jpg" width="100" height="100" alt="">
+                </article></a>
+                <article class="programa">
+                    <h1 style="color: black;">CONTABILIDAD</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-en-contabilidad-y-finanzas.html">    <img src="img/foto10.jpg" width="100" height="100" alt=""></a>
+                </article>
+                <article class="programa">
+                    <h1 style="color: black;">SEGURIDAD OCUPACIONAL</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-de-seguridad-en-el-trabajo.html">    <img src="img/foto4.jpg" width="100" height="100" alt=""></a>
+                </article>
+                <article class="programa">
+                    <h1 style="color: black;">ENFERMERIA Y SALUD ORAL</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-en-enfermeria.html"><img src="img/foto11.png" width="100" height="100" alt=""></a>
+                </article>
+                <article class="programa">
+                    <h1 style="color: black;">BANCA Y FINANZAS</h1>
+                    <a href="https://www.incap.edu.co/programas/auxiliar-en-banca-y-servicios-financieros.html"><img src="img/foto3.jpg" width="100" height="100" alt=""></a>
+            </section>
+        </center>
+        <!-- SECCION BARRA LATERAL DERECHA -->
+        <aside id="sidebar">
+        <h1>VIDEOS DE INTERES</h1>
+        <br><br>
+        <h1>APRENDE HTML</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOkqGx6zdbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </aside>
+        <footer id="footer">
+            <div id="redes">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p style="color: blueviolet;">Derechos reservados:@Andres quintero</p>
+        </footer>
+        </div>
+        <script src="./JS/INDEX_NEW.js"></script>
+</body>
+</html>
